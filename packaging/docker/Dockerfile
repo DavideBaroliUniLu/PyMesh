@@ -15,6 +15,7 @@ python-numpy \
 python-scipy \
 python-setuptools \
 python \
+libsuitesparse-dev \
 swig \
 && apt-get clean
 
