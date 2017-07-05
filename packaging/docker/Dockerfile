@@ -21,6 +21,8 @@ swig \
 WORKDIR /root/
 RUN git clone https://github.com/qnzhou/PyMesh.git
 RUN cd PyMesh && git submodule init && git submodule update
+RUN pip install -r python/requirements.txt
+
 
 ENV PYMESH_PATH /root/PyMesh
 
